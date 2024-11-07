@@ -100,7 +100,7 @@ public class ClosestPairDriver {
 	 */
 	private static void runnningTimeComparison() {
 		//TODO: Implement this method for part (b) of the assignment 
-		for(int i=10;i<10000;i*=10){
+		for(int i=10;i<=10000;i*=10){
 			Point[] pts = getRandomPoints(i);
 			// Execute and time BruteForce
 			long tick = System.currentTimeMillis();
@@ -124,7 +124,7 @@ public class ClosestPairDriver {
 	/** Driver class for tests
 	 */
 	public static void main(String[] args) {
-		
+		System.out.println("hello");
 		if(testFivePointsBruteForce()) 
 			System.out.println("Test BruteForce: SUCCESS");
 		else 
